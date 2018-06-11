@@ -23,6 +23,7 @@
         "phantomjs": "^1.9.17"
     },
     "scripts": {
-        "test": "mocha"
+        "test": "mocha",
+        "start": "echo ok"
     }
 }
