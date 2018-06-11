@@ -24,6 +24,6 @@
     },
     "scripts": {
         "test": "mocha",
-        "start": "echo ok"
+        "start": "node index.js"
     }
 }
