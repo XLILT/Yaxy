@@ -1,0 +1,14 @@
+{
+  "name": "Yaxy",
+  "version": "1.0.0",
+  "praviate": true,
+  "repository": "git@github.com:XLILT/Yaxy.git",
+  "author": "maxiaolong <maxiaolong@sunlands.com>",
+  "license": "MIT",
+  "dependencies": {    
+    "express": "~4.16.0"
+  },
+  "scripts": {
+    "start": "node test.js",    
+  }
+}
