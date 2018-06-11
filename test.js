@@ -1,13 +1,12 @@
-var express = require('express');
-var app = express();
+ var server = require('http').createServer(onRequest);
+ server.on('connect', onConnect);
+ server.listen(8080);
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+ function onRequest(req, res) {
+    console.log(req)
+ }
 
-var server = app.listen(8080, function () {
-  var host = server.address().address;
-  var port = server.address().port;
-
-  console.log('Example app listening at http://%s:%s', host, port);
-});
+ function onConnect(request, socketRequest, head) {
+     console.log(request)
+ }
+ 
