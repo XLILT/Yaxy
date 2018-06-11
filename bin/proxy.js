@@ -41,6 +41,10 @@ process.on('uncaughtException', function(err) {
     console.error(err.stack);
 });
 
+console.log(port)
+console.log(httpsPort)
+console.log(certs)
+
 var server = require('../lib/yaxy')(port, httpsPort, certs);
 if (proxy) {
     server.setProxy(proxy);
