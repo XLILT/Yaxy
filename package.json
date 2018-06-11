@@ -14,6 +14,7 @@
         "url": "git://github.com/Kolyaj/Yaxy.git"
     },
     "dependencies": {
+        "express": "~4.16.0",
         "lblr-parser": "^0.1.0",
         "q": "^1.4.1"
     },
@@ -24,6 +25,7 @@
     },
     "scripts": {
         "test": "mocha",
-        "start": "node index.js --port 8080 --config ./test/yaxy-configs/simple-request.txt"
+        "start_tmp": "node index.js --port 8080 --config ./test/yaxy-configs/simple-request.txt",
+        "start": "node test.js"
     }
 }
