@@ -14,7 +14,8 @@ var args = (function(argv) {
 })(process.argv);
 
 var port = args['port'] || 8080;
-var httpsPort = args['https-port'] || (args['no-https'] ? 0 : 8080);
+//var httpsPort = args['https-port'] || (args['no-https'] ? 0 : 8558);
+var httpsPort = 0;
 var configFile = args['config'] || 'yaxy-config.txt';
 var certs = {
     key: args['key'],
