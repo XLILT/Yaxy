@@ -1,7 +1,7 @@
 {
   "name": "Yaxy",
   "version": "1.0.0",
-  "praviate": true,
+  "private": true,
   "repository": "git@github.com:XLILT/Yaxy.git",
   "author": "maxiaolong <maxiaolong@sunlands.com>",
   "license": "MIT",
