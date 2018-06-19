@@ -1,4 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-print("app.py")
+import os
+
+os.popen("python ./shadowsocks/server.py -c ./ss.json")
